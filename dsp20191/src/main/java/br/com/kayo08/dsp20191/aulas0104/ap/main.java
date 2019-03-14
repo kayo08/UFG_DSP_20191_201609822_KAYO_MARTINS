@@ -1,3 +1,4 @@
+package br.com.kayo08.dsp20191.aulas0104.ap;
 
 import java.io.*;
 
@@ -8,7 +9,7 @@ public class main {
             String content = "Desenvolvimento de Software para percistencia";
 
             // Cria arquivo
-            File file = new File("src/main/resources/teste.txt");
+            File file = new File("src/br.com.kayo08.dsp20191.aulas0104.ap.main/resources/teste.txt");
 
             // Escrever
             FileWriter fw = new FileWriter(file.getAbsoluteFile());
@@ -17,7 +18,7 @@ public class main {
             bw.close();
 
             // Ler arquivo
-            FileReader ler = new FileReader("src/main/resources/teste.txt");
+            FileReader ler = new FileReader("src/br.com.kayo08.dsp20191.aulas0104.ap.main/resources/teste.txt");
             BufferedReader reader = new BufferedReader(ler);
             String linha;
             while( (linha = reader.readLine()) != null ){
