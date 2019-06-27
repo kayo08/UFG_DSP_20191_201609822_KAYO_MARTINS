@@ -1,5 +1,3 @@
-leia arquivoCaminho dado nomeArquivo ManipulaArquivo obtenhaUnidadesFederativas
-UnidadeFederativa
 package br.com.kayo08.aulas0104.ap; 
 
 

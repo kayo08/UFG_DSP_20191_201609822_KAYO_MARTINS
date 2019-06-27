@@ -1,4 +1,3 @@
-LeitorDeArquivo leia arquivoCaminho  UnidadeFederativa dados nomeArquivo ManipulaArquivo obtenhaIdentificador obtenhaUnidadesFederativas
 package br.com.kayo08.dsp2019.aulas0104.ap;
 
 import java.io.BufferedReader;
