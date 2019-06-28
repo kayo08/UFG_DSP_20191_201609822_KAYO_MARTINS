@@ -25,19 +25,17 @@ public class DadosAluno {
 
     public static void read() {
 
-        try {
-            DataInputStream dataInputStream = new DataInputStream(new FileInputStream("src/main/resources/avaliacao.dat"));
+        DataInputStream dataInputStream = new DataInputStream(new FileInputStream("src/main/resources/avaliacao.dat"));
 
-            while (dataInputStream.available() > 0) {
-                String linha = dataInputStream.readUTF();
-                String aprovacao;
-				double nota = (Aluno[3] + Aluno [4]) / 2;
-                if (nota >= 5.0) {
-                    aprovacao = "Aprovado  \n";
-                } else {
-                    aprovacao = "Reprovado \n";
+        while (dataInputStream.available() > 0) {
+            String linha = dataInputStream.readUTF();
+            String aprovacao;
+		double nota = (Aluno[3] + Aluno [4]) / 2;
+            if (nota >= 5.0) {
+                aprovacao = "Aprovado  \n";
+            } else {
+                aprovacao = "Reprovado \n";
                 }
-            }
-
+            }    
     }
 }

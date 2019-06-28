@@ -1,4 +1,4 @@
-package br.com.kayo08.dsp2019.aulas0104.ap;
+package br.com.kayo08.dsp20191.aulas0104.ap;
 
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
@@ -10,7 +10,7 @@ import java.util.List;
 
 public class Ler {
     
-    private static Ler ;
+    private static Ler instancia;
     
     private Ler() {
     }
