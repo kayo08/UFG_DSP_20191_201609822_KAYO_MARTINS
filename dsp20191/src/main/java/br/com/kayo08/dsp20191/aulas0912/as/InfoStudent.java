@@ -6,9 +6,9 @@ public class InfoStudent {
     private String firstname;
     private String lastname;
     private String nickname;
-    private Frequencia frequencia;
+    private GetFrequencia frequencia;
 
-    public InfoStudent (Long matricula, String firstname, String lastname, String nickname, Frequencia frequencia) {
+    public InfoStudent (Long matricula, String firstname, String lastname, String nickname, GetFrequencia frequencia) {
         this.matricula = matricula;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -44,10 +44,10 @@ public class InfoStudent {
         this.nickname = nickname;
     }
 	//Frequencia
-    public Frequencia getFrequencia() {
+    public GetFrequencia getFrequencia() {
         return frequencia;
     }
-    public void setFrequencia(Frequencia frequencia) {
+    public void setFrequencia(GetFrequencia frequencia) {
         this.frequencia = frequencia;
     }
 }
